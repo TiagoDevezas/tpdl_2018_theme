@@ -25,18 +25,18 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tpdl2018' ); ?></a>
 
 	<header id="masthead" class="site-header ph6-l ph3 pv4-l pv2">
-		<div class="site-branding w-100 flex items-center-ns">
-			<div class="logo w-10 mw4">
+		<div class="site-branding flex items-center-ns flex-wrap">
+			<div class="logo w-100 w-10-l mw4 center">
 				<img src="<?php echo get_template_directory_uri() . '/images/logo_v1.svg'; ?>" />
 			</div>
-			<div class="w-90">
-				<p class="ml4 dib tr tdpl-light-blue fw2">
+			<div class="w-100 w-90-l flex justify-center-s justify-center-m">
+				<p class="ml4-l dib tr tdpl-light-blue fw2">
 					porto <br>
 					portugal <br>
 					sep. 18 - 21 2018
 				</p>
-				<p class="fw8 tdpl-blue dib">
-					22nd international conference <br>
+				<p class="fw8 tdpl-blue dib ml1">
+					22<sup>nd</sup> international conference <br>
 					on theory and practice <br>
 					of digital libraries
 				</p>
@@ -68,4 +68,4 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content ph6-ns ph3">
+	<div id="content" class="site-content ph6-ns ph3 bg-tdpl-light-beige">
