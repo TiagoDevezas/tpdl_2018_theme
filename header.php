@@ -24,21 +24,21 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tpdl2018' ); ?></a>
 
-	<header id="masthead" class="site-header ph3 center mw8">
+	<header id="masthead" class="site-header ph3 center mw9">
 		<div class="site-branding flex items-center-ns flex-wrap pv4-l pv2">
-			<div class="logo w-100 w-20-l">
+			<div class="logo w-100 w-10-l">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="flex justify-center justify-start-l">
-					<img src="<?php echo get_template_directory_uri() . '/images/logo_v1.svg'; ?>" alt="TPDL 2018" title="TPDL 2018" class="mw4" />
+					<img src="<?php echo get_template_directory_uri() . '/images/logo_v1.svg'; ?>" alt="TPDL 2018" title="TPDL 2018" class="mw3" />
 				</a>
 				
 			</div>
-			<div class="w-100 w-80-l flex justify-center justify-start-l">
-				<p class="ml2 dib tr tdpl-light-blue fw2 lh-solid">
+			<div class="w-100 w-90-l flex justify-center justify-start-l">
+				<p class="ml2 dib tr tdpl-light-blue fw2 lh-solid mb0">
 					porto <br>
 					portugal <br>
 					sep. 18 - 21 2018
 				</p>
-				<p class="fw8 tdpl-blue dib ml1 lh-solid">
+				<p class="fw8 tdpl-blue dib ml1 lh-solid mb0">
 					22<sup>nd</sup> international conference <br>
 					on theory and practice <br>
 					of digital libraries
@@ -60,7 +60,7 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation fw5 ttu dark-gray pb3">
+		<nav id="site-navigation" class="main-navigation fw3 ttu dark-gray pb1">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tpdl2018' ); ?></button>
 			<?php
 				wp_nav_menu( array(

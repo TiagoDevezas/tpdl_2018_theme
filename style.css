@@ -358,7 +358,7 @@ hr {
 }
 
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	/*margin: 0 0 1.5em 3em;*/
 }
 
 ul {
@@ -563,6 +563,27 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	color: midnightblue;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+	color: #8390C8;
+}
+
+#primary-menu > li:not(:first-of-type) {
+	margin: 0 2rem;
+}
+
+/* Submenu */
+
+ul.sub-menu {
+	background-color: #FFFFFF;
+	font-size: 0.9em;
+} 
+
+ul.sub-menu li {
+	padding: 0.5em 0 0.5em 0.5em;
 }
 
 /* Small menu. */
@@ -862,10 +883,14 @@ object {
   font-family: 'Montserrat', sans-serif;
 }
 
+.lh-cover {
+	line-height: 0.8;
+}
+
 /* Colors */
 
 .tdpl-blue {
-  color: #074EA2;
+  color: #093990;
 }
 
 .tdpl-light-blue {
@@ -873,7 +898,7 @@ object {
 }
 
 .bg-tdpl-blue {
-  background-color: #074EA2;
+  background-color: #093990;
 }
 
 .bg-tdpl-light-blue {

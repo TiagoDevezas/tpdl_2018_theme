@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area mw9 center ph3">
 		<main id="main" class="site-main">
 
 			<?php
