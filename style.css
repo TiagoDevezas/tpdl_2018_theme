@@ -912,3 +912,9 @@ object {
 .bg-tdpl-light-beige {
   background-color: #FAFBFC;
 }
+
+/* iframes */
+
+iframe {
+	border: none;
+}

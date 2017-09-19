@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title f3 f2-m f1-l">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content measure lh-copy">
+	<div class="entry-content measure-wide lh-copy">
 		<?php
 			the_content();
 
