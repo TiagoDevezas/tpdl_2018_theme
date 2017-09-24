@@ -11,7 +11,7 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> class="h-100">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,17 +20,28 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'montserrat w-100' ); ?>>
-<div id="page" class="site">
+<body <?php body_class( 'montserrat h-100' ); ?>>
+<div id="page" class="site relative">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tpdl2018' ); ?></a>
 
 	<div class="parallax cover w-100 h-100 bg-top absolute bottom-0 left-0"></div>
 		
 
-	<header id="masthead" class="site-header bg-tdpl-blue o-90">
+	<header id="masthead" class="site-header z-999 relative">
 		<div class="header-wrapper center mw9">
+
+			<nav id="site-navigation" class="main-navigation fw8 ttu dark-gray pv3 ph3 mw9 f6 lh-copy">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tpdl2018' ); ?></button>
+				<?php
+					wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+						'menu_class'	 => ''
+					) );
+				?>
+			</nav><!-- #site-navigation -->
 		
-			<div class="site-branding flex items-center-ns flex-wrap pv4-l pv2 ph3 mw9">
+<!-- 			<div class="site-branding flex items-center-ns flex-wrap pv4-l pv2 ph3 mw9">
 				<div class="logo w-100 w-10-l">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="flex justify-center justify-start-l">
 						<img src="<?php echo get_template_directory_uri() . '/images/logo_v1.svg'; ?>" alt="TPDL 2018" title="TPDL 2018" class="mw3" />
@@ -48,8 +59,9 @@
 						on theory and practice <br>
 						of digital libraries
 					</p>
-				</div>
-				<?php
+				</div> -->
+
+				<?php 
 				the_custom_logo();
 				if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -65,22 +77,12 @@
 				endif; ?>
 			</div><!-- .site-branding -->
 
-			<nav id="site-navigation" class="main-navigation fw8 ttu dark-gray pb1 ph3 mw9 f6 lh-copy">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tpdl2018' ); ?></button>
-				<?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					) );
-				?>
-			</nav><!-- #site-navigation -->
-		</div>
 	</header><!-- #masthead -->
 
 	<?php 
 		if ( is_front_page() && is_home() ) : ?>
 
-		<div id="content" class="site-content center bg-tdpl-blue o-70">
+		<div id="content" class="site-content center relative z-0">
 
 	<?php
 		else: ?>

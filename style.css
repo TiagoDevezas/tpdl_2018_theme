@@ -514,22 +514,27 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-    clear: both;
+    /* display: block;*/
+/*    display: flex;
+    justify-content: center;*/
+/*    clear: both;
     display: block;
     float: left;
-    width: 100%;
+    width: 100%;*/
 }
 
 .main-navigation ul {
-    display: none;
+    display: block;
+    list-style: none;
+/*    display: none;
     list-style: none;
     margin: 0;
-    padding-left: 0;
+    padding-left: 0;*/
 }
 
 .main-navigation ul ul {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-    float: left;
+    /*float: left;*/
     position: absolute;
     top: 100%;
     left: -999em;
@@ -557,7 +562,6 @@ a:hover, a:active {
 }
 
 .main-navigation li {
-    float: left;
     position: relative;
 }
 
@@ -572,8 +576,19 @@ a:hover, a:active {
     color: #8390C8;
 }
 
+li.menu-item-has-children {
+    display: inline-block;
+    position: relative;
+}
+
+/*#primary-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+}*/
+
 #primary-menu > li:not(:first-of-type) {
-    margin: 0 2rem;
+    padding: 0 2rem;
 }
 
 /* Submenu */
@@ -581,10 +596,12 @@ a:hover, a:active {
 ul.sub-menu {
     background-color: #093990;
     font-size: 0.9em;
+    margin: 0;
+    padding-left: 1.5rem;
 } 
 
 ul.sub-menu li {
-    padding: 0.5em 0 0.5em 0.5em;
+    padding: 0.5em 0;
 }
 
 ul.sub-menu li a {
@@ -600,6 +617,10 @@ ul.sub-menu li a {
 @media screen and (min-width: 37.5em) {
     .menu-toggle {
         display: none;
+    }
+    .main-navigation {
+        display: flex;
+        justify-content: center;
     }
     .main-navigation ul {
         display: block;
@@ -897,9 +918,57 @@ object {
 /* Cover image */
 
 .parallax {
-  background-image: url(images/bg2.jpg);
+  background-image: url(images/bg.jpg);
   background-attachment: fixed;
   z-index: -1;
+}
+
+#masthead {
+    background-color: rgba(9, 57, 144, 0.95);
+}
+
+#main-header {
+    background-color: rgba(9, 57, 144, 0.8);
+}
+
+/* Header animation */
+
+@-webkit-keyframes fadeTop {
+    0% {
+      transform: translateY(-1em);
+      opacity: 0;
+    }    
+}
+
+@-webkit-keyframes fadeBottom {
+    0% {
+      transform: translateY(1em);
+      opacity: 0;
+    }    
+}
+
+@keyframes fadeTop {
+  0% {
+    transform: translateY(-1em);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeBottom {
+    0% {
+      transform: translateY(1em);
+      opacity: 0;
+    }    
+}
+
+.headline-logo {
+    -webkit-animation: .5s .25s fadeTop backwards ease-out;
+    animation: .5s .25s fadeTop backwards ease-out;
+}
+
+.date {
+    -webkit-animation: .5s .25s fadeBottom backwards ease-out;
+    animation: .5s .25s fadeBottom backwards ease-out;
 }
 
 /* Colors */

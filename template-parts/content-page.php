@@ -9,12 +9,12 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('mw7'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('mw7 center'); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title f3 f2-m f1-l">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title f3 f2-m f1-l tc">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content measure-wide lh-copy">
+	<div class="entry-content lh-copy">
 		<?php
 			the_content();
 
