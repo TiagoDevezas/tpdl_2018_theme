@@ -17,7 +17,6 @@ get_header(); ?>
   <div id="primary" class="content-area mw9 center ph3 bg-tdpl-light-beige">
     <main id="main" class="site-main">
       <div class="cover-image relative">
-        <img src="<?php echo get_template_directory_uri() . '/images/bg2.jpg'; ?>" alt="">
         <div class="cover-text absolute top-1 right-1 top-2-ns right-2-ns">
           <p class="bg-white tdpl-blue f-subheadline-l f2-m f4 measure tc ph2 mb0 lh-cover pt1 fw3">Digital Libraries for</p>
           <p class="bg-white tdpl-blue f-subheadline-l f2-m f4 measure tc ph2 ma0 mt3-l mt1 lh-cover pt1 fw3">Open Knowledge</p>

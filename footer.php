@@ -32,7 +32,6 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'tpdl2018' ), 'tpdl2018', '<a href="http://underscores.me/">Underscores.me</a>' );
 			?> -->
-
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
