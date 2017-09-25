@@ -89,12 +89,12 @@
 	<?php 
 		if ( is_front_page() && is_home() ) : ?>
 
-		<div id="content" class="site-content center relative z-0">
+		<div id="content" class="site-content center relative z-0 is-home">
 
 	<?php
 		else: ?>
 
-		<div id="content" class="site-content center bg-tdpl-light-beige">
+		<div id="content" class="site-content center bg-tdpl-light-beige is-not-home">
 
 	<?php 
 		endif; ?>

@@ -73,6 +73,37 @@
 		}
 	}
 
+	// Sticky navigation
+
+		window.onload = function() {
+
+			var stickyHeader = document.getElementById('masthead');
+
+			var contentDiv = document.getElementById('content');
+
+			var navMenu = document.getElementById('primary-menu');
+
+			var isHome = contentDiv.classList.contains('is-home');
+
+			if (!isHome) {
+				window.onscroll = function() {
+					var headerHeight = stickyHeader.clientHeight;
+					// body.scrollTop is deprecated and no longer available on Firefox
+					var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+					console.log(bodyScrollTop, headerHeight);
+
+					if (bodyScrollTop > 0) {
+						contentDiv.style.marginTop = headerHeight + 'px';
+						stickyHeader.classList.add('fixed');
+					} else if (bodyScrollTop == 0) {
+						contentDiv.style.marginTop = '0px';
+						stickyHeader.classList.remove('fixed');
+					}
+				};
+			}
+		}
+
+
 	/**
 	 * Toggles `focus` class to allow submenu access on tablets.
 	 */
