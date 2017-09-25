@@ -113,6 +113,19 @@ function tpdl2018_widgets_init() {
 }
 add_action( 'widgets_init', 'tpdl2018_widgets_init' );
 
+// Show homepage link in primary menu when not in homepage
+
+add_filter('wp_nav_menu_items','search_box_function', 10, 2);
+function search_box_function( $nav, $args ) {
+    if( $args->theme_location == 'menu-1' )
+    	if ( is_front_page() && is_home() )
+    		return $nav;
+        else
+        	return "<li><a href='" . esc_url( home_url( '/' ) ) . "'>" . "<img src='" . get_template_directory_uri() . '/images/logo_v1.svg' . "' width='50px' class='headline-logo'></a></li>" . $nav;
+
+    // return $nav;
+}
+
 /**
  * Enqueue scripts and styles.
  */

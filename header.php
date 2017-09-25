@@ -31,14 +31,21 @@
 		<div class="header-wrapper center mw9">
 
 			<nav id="site-navigation" class="main-navigation fw8 ttu dark-gray pv3 ph3 mw9 f6 lh-copy">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tpdl2018' ); ?></button>
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'tpdl2018' ); ?></button>
 				<?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-						'menu_class'	 => ''
-					) );
-				?>
+					if ( is_front_page() && is_home() ) :
+						wp_nav_menu( array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'primary-menu',
+							'menu_class'	 => ''
+						) );
+					else :
+						wp_nav_menu( array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'primary-menu',
+							'menu_class'	 => 'not-home'
+						) );
+				endif; ?>
 			</nav><!-- #site-navigation -->
 		
 <!-- 			<div class="site-branding flex items-center-ns flex-wrap pv4-l pv2 ph3 mw9">

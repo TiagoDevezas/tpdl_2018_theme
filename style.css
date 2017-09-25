@@ -514,27 +514,22 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-    /* display: block;*/
-/*    display: flex;
-    justify-content: center;*/
-/*    clear: both;
+    clear: both;
     display: block;
     float: left;
-    width: 100%;*/
+    width: 100%;
 }
 
 .main-navigation ul {
-    display: block;
-    list-style: none;
-/*    display: none;
+    display: none;
     list-style: none;
     margin: 0;
-    padding-left: 0;*/
+    padding-left: 0;
 }
 
 .main-navigation ul ul {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-    /*float: left;*/
+    float: left;
     position: absolute;
     top: 100%;
     left: -999em;
@@ -553,7 +548,7 @@ a:hover, a:active {
 
 .main-navigation ul ul a {
     width: 200px;
-    color: #8390C8;
+    color: white;
 }
 
 .main-navigation ul li:hover > ul,
@@ -562,13 +557,26 @@ a:hover, a:active {
 }
 
 .main-navigation li {
+    float: left;
     position: relative;
+}
+
+.main-navigation ul#primary-menu[aria-expanded="true"] li {
+    float: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.main-navigation ul#primary-menu[aria-expanded="true"] ul {
+    float: none;
+    position: static;
+    box-shadow: none;
+    background-color: transparent;
 }
 
 .main-navigation a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: midnightblue;
 }
 
 .main-navigation a:hover,
@@ -576,36 +584,38 @@ a:hover, a:active {
     color: #8390C8;
 }
 
-li.menu-item-has-children {
-    display: inline-block;
-    position: relative;
+#primary-menu > li > a {
+    color: white;
 }
 
-/*#primary-menu {
-    display: flex;
-    align-items: center;
-    position: relative;
-}*/
-
-#primary-menu > li:not(:first-of-type) {
-    padding: 0 2rem;
+#primary-menu li.menu-item-has-children > a::after {
+    content: " +";
+    color: white;
 }
+
 
 /* Submenu */
 
 ul.sub-menu {
     background-color: #093990;
     font-size: 0.9em;
-    margin: 0;
-    padding-left: 1.5rem;
 } 
 
 ul.sub-menu li {
-    padding: 0.5em 0;
+    padding: 0.5em 0 0.5em 0.5em;
 }
 
-ul.sub-menu li a {
-  color: #FFFFFF;
+.main-navigation a.hide-home-link {
+    display: none;
+}
+
+.main-navigation a.show-home-link {
+    background-image: url(images/logo_v1.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 80px;
+    vertical-align: middle;
 }
 
 /* Small menu. */
@@ -615,12 +625,16 @@ ul.sub-menu li a {
 }
 
 @media screen and (min-width: 37.5em) {
+    #primary-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #primary-menu > li:not(:first-of-type) {
+        margin-left: 2rem;
+    }
     .menu-toggle {
         display: none;
-    }
-    .main-navigation {
-        display: flex;
-        justify-content: center;
     }
     .main-navigation ul {
         display: block;
