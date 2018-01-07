@@ -22,10 +22,10 @@ get_header(); ?>
           <img src="<?php echo get_template_directory_uri() . '/images/logo_v1.svg'; ?>" alt="TPDL 2018" title="TPDL 2018" class="ml4-ns" width="80px"/>
         </div>
         <div class="date center mw8 flex justify-center">
-          <p class="f2-l f3-m f6 ml2 tr white fw2 lh-solid mb0">
+          <p class="f2-l f3-m f6 ml2 mr2 tr white fw2 lh-solid mb0">
             porto <br>
             portugal <br>
-            sep. 18 - 21 2018
+            sep. 10-13 2018
           </p>
           <p class="f2-l f3-m f6 fw8 white ml1 lh-solid mb0">
             22<sup>nd</sup> international conference <br>

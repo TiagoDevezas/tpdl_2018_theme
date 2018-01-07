@@ -134,7 +134,7 @@ function tpdl2018_scripts() {
 	
 	wp_enqueue_style( 'tpdl2018-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'tachyons', 'https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css' );
+	wp_enqueue_style( 'tachyons', 'https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css' );
 
 	wp_enqueue_script( 'tpdl2018-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
