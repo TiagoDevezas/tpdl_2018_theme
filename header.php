@@ -94,7 +94,7 @@
 	<?php
 		else: ?>
 
-		<div id="content" class="site-content center bg-tdpl-light-beige is-not-home">
+		<div id="content" class="site-content center bg-white is-not-home">
 
 	<?php 
 		endif; ?>

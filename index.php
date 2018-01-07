@@ -35,7 +35,7 @@ get_header(); ?>
         </div>
         <h2 class="tc white ttu f2-l f3-m f5 fw3 mb0">Faculty of Engineering, University of Porto</h2>
       </div>
-      <div class="introduction bg-tdpl-light-beige pv2 center">
+      <div class="introduction bg-white pv2 center">
         <div class="intro-wrapper mw8 center">
           <h2 class="tc tdpl-blue f1-l f3-m f5 fw5 pv6">Digital Libraries for Open Knowledge</h2>
         </div>

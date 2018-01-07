@@ -13,9 +13,9 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer center bg-tdpl-blue mt0 white relative">
+	<footer id="colophon" class="site-footer center bg-tdpl-light-beige mt0 white relative">
 		<div class="site-info center tc flex flex-wrap justify-center" style="max-width: 94rem;">
-			<h1>Hello</h1>
+			<!-- <h1>Hello</h1> -->
 <!-- 			<img src="http://via.placeholder.com/100x100">
 			<img src="http://via.placeholder.com/100x100">
 			<img src="http://via.placeholder.com/100x100">
