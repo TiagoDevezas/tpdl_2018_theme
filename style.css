@@ -1023,3 +1023,45 @@ object {
 iframe {
     border: none;
 }
+
+/* Contact form */
+
+.proper_contact_form_wrap {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.proper_contact_form label {
+    display: block;
+}
+
+.proper_contact_form label strong {
+    color: red;
+}
+
+.proper_contact_form .form_field_wrap {
+    margin-bottom: 1rem;
+}
+
+.proper_contact_form input, .proper_contact_form textarea {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.proper_contact_form input#submit {
+    width: auto;
+    border: none;
+    border-radius: 0;
+    background-color: #093990;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.proper_contact_form input#submit:hover {
+    background-color: rgba(9, 57, 144, 0.9);
+}
