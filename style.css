@@ -495,7 +495,7 @@ a {
 }
 
 a:visited {
-    color: purple;
+    color: transparent;
 }
 
 a:hover, a:focus, a:active {
@@ -1022,6 +1022,12 @@ object {
 
 iframe {
     border: none;
+}
+
+/* Cards */
+
+.info-card a:hover, .info-card a:focus, a:active {
+    color: white !important;
 }
 
 /* Contact form */

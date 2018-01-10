@@ -42,7 +42,7 @@ get_header(); ?>
       </div>
       <div class="info bg-near-white cf pb3">
         <div class="mw9 center flex flex-wrap">
-          <div class="w-100 w-50-m w-25-l pa2 flex">
+          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
             <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
               <div class="tc">
                 <i data-feather="calendar" class="h3 w3 dib"></i>
@@ -50,13 +50,12 @@ get_header(); ?>
                 <hr class="mw3 bb bw1 b--black-10">
               </div>
               <p class="lh-copy measure center f6 black-70">
-                Quite affectionate and outgoing.
-                She loves to get chin scratches and will
+                The TPDL 2018 Conference will take place from Monday, September 10 through Thursday, September 13, 2018. Please check the link below for the important dates.
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Important Dates</a>
             </article>
           </div>
-          <div class="w-100 w-50-m w-25-l pa2 flex">
+          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
             <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
               <div class="tc">
                 <i data-feather="map" class="h3 w3 dib"></i>
@@ -64,16 +63,14 @@ get_header(); ?>
                 <hr class="mw3 bb bw1 b--black-10">
               </div>
               <p class="lh-copy measure center f6 black-70">
-                Quite affectionate and outgoing.
-                She loves to get chin scratches and will
-                roll around on the floor waiting for you give her more of them.
+                The TPDL 2018 Conference will be held at the Faculty of Engineering from the University of Porto, in the city of Porto, Portugal. Please check the links below for details about the venue and travel information.
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Venue</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">How to Arrive</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">About Porto</a>
             </article>
           </div>
-          <div class="w-100 w-50-m w-25-l pa2 flex">
+          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
             <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
               <div class="tc">
                 <i data-feather="help-circle" class="h3 w3 dib"></i>
@@ -81,14 +78,12 @@ get_header(); ?>
                 <hr class="mw3 bb bw1 b--black-10">
               </div>
               <p class="lh-copy measure center f6 black-70">
-                Quite affectionate and outgoing.
-                She loves to get chin scratches and will
-                roll around on the floor waiting for you give her more of them.
+                Interested in participating in the TPDL 2018 Conference? Please check the links below for registration and submission details.
               </p>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Call for Papers</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Registration</a>
             </article>
           </div>
-          <div class="w-100 w-50-m w-25-l pa2 flex">
+          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
             <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
               <div class="tc">
                 <i data-feather="users" class="h3 w3 dib"></i>
@@ -96,12 +91,11 @@ get_header(); ?>
                 <hr class="mw3 bb bw1 b--black-10">
               </div>
               <p class="lh-copy measure center f6 black-70">
-                Quite affectionate and outgoing.
-                She loves to get chin scratches and will
-                roll around on the floor waiting for you give her more of them.
+                Want to know more about the people behind the TPDL 2018 Conference? Do you need to contact us? Please check the links below for details.
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Organizing Committee</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Program Committee</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Contact</a>
             </article>
           </div>
         </div>
