@@ -5,6 +5,10 @@
  * navigation support for dropdown menus.
  */
 ( function() {
+	feather.replace({
+		stroke: "#093990"
+	});
+
 	var container, button, menu, links, i, len, isHomePage, homeLink;
 
 	container = document.getElementById( 'site-navigation' );

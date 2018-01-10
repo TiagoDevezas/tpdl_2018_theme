@@ -22,7 +22,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'montserrat h-100' ); ?>>
+<body <?php body_class( 'montserrat h-100 bg-near-white' ); ?>>
 <div id="page" class="site relative">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tpdl2018' ); ?></a>
 

@@ -35,13 +35,80 @@ get_header(); ?>
         </div>
         <h2 class="tc white ttu f2-l f3-m f5 fw3 mb0">Faculty of Engineering, University of Porto</h2>
       </div>
-      <div class="introduction bg-white pv2 center">
+      <div class="introduction bg-near-white pv2 center">
         <div class="intro-wrapper mw8 center">
-          <h2 class="tc tdpl-blue f1-l f3-m f5 fw5 pv6">Digital Libraries for Open Knowledge</h2>
+          <h2 class="tc tdpl-blue f1-l f3-m f5 fw5 mv0">Digital Libraries for Open Knowledge</h2>
         </div>
-       
-        
       </div>
+      <div class="info bg-near-white cf pb3">
+        <div class="mw9 center flex flex-wrap">
+          <div class="w-100 w-50-m w-25-l pa2 flex">
+            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+              <div class="tc">
+                <i data-feather="calendar" class="h3 w3 dib"></i>
+                <h1 class="f4 mt0">When</h1>
+                <hr class="mw3 bb bw1 b--black-10">
+              </div>
+              <p class="lh-copy measure center f6 black-70">
+                Quite affectionate and outgoing.
+                She loves to get chin scratches and will
+              </p>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Important Dates</a>
+            </article>
+          </div>
+          <div class="w-100 w-50-m w-25-l pa2 flex">
+            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+              <div class="tc">
+                <i data-feather="map" class="h3 w3 dib"></i>
+                <h1 class="f4 mt0">Where</h1>
+                <hr class="mw3 bb bw1 b--black-10">
+              </div>
+              <p class="lh-copy measure center f6 black-70">
+                Quite affectionate and outgoing.
+                She loves to get chin scratches and will
+                roll around on the floor waiting for you give her more of them.
+              </p>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Venue</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">How to Arrive</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">About Porto</a>
+            </article>
+          </div>
+          <div class="w-100 w-50-m w-25-l pa2 flex">
+            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+              <div class="tc">
+                <i data-feather="help-circle" class="h3 w3 dib"></i>
+                <h1 class="f4 mt0">How</h1>
+                <hr class="mw3 bb bw1 b--black-10">
+              </div>
+              <p class="lh-copy measure center f6 black-70">
+                Quite affectionate and outgoing.
+                She loves to get chin scratches and will
+                roll around on the floor waiting for you give her more of them.
+              </p>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Call for Papers</a>
+            </article>
+          </div>
+          <div class="w-100 w-50-m w-25-l pa2 flex">
+            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+              <div class="tc">
+                <i data-feather="users" class="h3 w3 dib"></i>
+                <h1 class="f4 mt0">Who</h1>
+                <hr class="mw3 bb bw1 b--black-10">
+              </div>
+              <p class="lh-copy measure center f6 black-70">
+                Quite affectionate and outgoing.
+                She loves to get chin scratches and will
+                roll around on the floor waiting for you give her more of them.
+              </p>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Organizing Committee</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Program Committee</a>
+            </article>
+          </div>
+        </div>
+
+      </div>
+
+
 <!--       <div class="cover-image relative">
         <div class="cover-text absolute top-1 right-1 top-2-ns right-2-ns">
           <p class="bg-white tdpl-blue f-subheadline-l f2-m f4 measure tc ph2 mb0 lh-cover pt1 fw3">Digital Libraries for</p>
