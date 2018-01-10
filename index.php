@@ -23,14 +23,14 @@ get_header(); ?>
         </div>
         <div class="date center mw8 flex justify-center">
           <p class="f2-l f3-m f6 ml2 mr2 tr white fw2 lh-solid mb0">
-            porto <br>
-            portugal <br>
-            sep. 10-13 2018
+            Porto <br>
+            Portugal <br>
+            Sep. 10-13 2018
           </p>
           <p class="f2-l f3-m f6 fw8 white ml1 lh-solid mb0">
-            22<sup>nd</sup> international conference <br>
-            on theory and practice <br>
-            of digital libraries
+            22<sup>nd</sup> International Conference <br>
+            on Theory and Practice <br>
+            of Digital Libraries
           </p>
         </div>
         <h2 class="tc white ttu f2-l f3-m f5 fw3 mb0">Faculty of Engineering, University of Porto</h2>
