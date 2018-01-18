@@ -58,21 +58,6 @@ get_header(); ?>
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
             <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
               <div class="tc">
-                <i data-feather="map" class="h3 w3 dib"></i>
-                <h1 class="f4 mt0">Where</h1>
-                <hr class="mw3 bb bw1 b--black-10">
-              </div>
-              <p class="lh-copy measure center f6 black-70">
-                The TPDL 2018 Conference will be held at the Faculty of Engineering from the University of Porto, in the city of Porto, Portugal. Please check the links below for details about the venue and travel information.
-              </p>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Venue</a>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">How to Arrive</a>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">About Porto</a>
-            </article>
-          </div>
-          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
-            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
-              <div class="tc">
                 <i data-feather="help-circle" class="h3 w3 dib"></i>
                 <h1 class="f4 mt0">How</h1>
                 <hr class="mw3 bb bw1 b--black-10">
@@ -96,6 +81,21 @@ get_header(); ?>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Organizing Committee</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Program Committee</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Contact</a>
+            </article>
+          </div>
+          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
+            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+              <div class="tc">
+                <i data-feather="map" class="h3 w3 dib"></i>
+                <h1 class="f4 mt0">Where</h1>
+                <hr class="mw3 bb bw1 b--black-10">
+              </div>
+              <p class="lh-copy measure center f6 black-70">
+                The TPDL 2018 Conference will be held at the Faculty of Engineering from the University of Porto, in the city of Porto, Portugal. Please check the links below for details about the venue and travel information.
+              </p>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Venue</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">How to Arrive</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">About Porto</a>
             </article>
           </div>
         </div>
