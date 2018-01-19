@@ -52,7 +52,7 @@ get_header(); ?>
               <p class="lh-copy measure center f6 black-70">
                 The TPDL 2018 Conference will take place from Monday, September 10 through Thursday, September 13, 2018. Please check the link below for the important dates.
               </p>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/important-dates/">Important Dates</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/important-dates/">Important Dates</a>
             </article>
           </div>
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
@@ -65,7 +65,8 @@ get_header(); ?>
               <p class="lh-copy measure center f6 black-70">
                 Interested in participating in the TPDL 2018 Conference? Please check the links below for registration and submission details.
               </p>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Registration</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green fw5" href="https://easychair.org/cfp/TPDL2018">Call for Contributions</a>
+              <!-- <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Registration</a> -->
             </article>
           </div>
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
@@ -78,9 +79,9 @@ get_header(); ?>
               <p class="lh-copy measure center f6 black-70">
                 Want to know more about the people behind the TPDL 2018 Conference? Do you need to contact us? Please check the links below for details.
               </p>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/organizing-committee/">Organizing Committee</a>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/program-committee/">Program Committee</a>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/contact/">Contact</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/organizing-committee/">Organizing Committee</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/program-committee/">Program Committee</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/contact/">Contact</a>
             </article>
           </div>
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
@@ -93,9 +94,9 @@ get_header(); ?>
               <p class="lh-copy measure center f6 black-70">
                 The TPDL 2018 Conference will be held at the Faculty of Engineering from the University of Porto, in the city of Porto, Portugal. Please check the links below for details about the venue and travel information.
               </p>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/venue/">Venue</a>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/how-to-arrive/">How to Arrive</a>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/about-porto/">About Porto</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/venue/">Venue</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/how-to-arrive/">How to Arrive</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/about-porto/">About Porto</a>
             </article>
           </div>
         </div>
