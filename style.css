@@ -1074,7 +1074,7 @@ iframe {
 
 /* Hide Patron on pages */
 
-.is-not-home + footer #patron {
+.is-not-home + footer #patron, .is-not-home + footer #keynote-speakers {
     display: none !important;
 }
 
