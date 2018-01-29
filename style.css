@@ -1071,3 +1071,20 @@ iframe {
 .proper_contact_form input#submit:hover {
     background-color: rgba(9, 57, 144, 0.9);
 }
+
+/* Hide Patron on pages */
+
+.is-not-home + footer #patron {
+    display: none !important;
+}
+
+#patron a:link {
+    text-decoration: none;
+    color: #093990;
+    outline: 0;
+}
+
+#patron:hover {
+    text-decoration: none;
+    background-color: #f4f4f4;
+}

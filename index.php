@@ -25,7 +25,7 @@ get_header(); ?>
           <p class="f2-l f3-m f6 ml2 mr2 tr white fw2 lh-solid mb0">
             Porto <br>
             Portugal <br>
-            Sep. 10-13 2018
+            Sep. 10-14 2018
           </p>
           <p class="f2-l f3-m f6 fw8 white ml1 lh-solid mb0">
             22<sup>nd</sup> International Conference <br>
@@ -50,7 +50,7 @@ get_header(); ?>
                 <hr class="mw3 bb bw1 b--black-10">
               </div>
               <p class="lh-copy measure center f6 black-70">
-                The TPDL 2018 Conference will take place from Monday, September 10 through Thursday, September 13, 2018. Please check the link below for the important dates.
+                The TPDL 2018 Conference will take place from Monday, September 10 through Friday, September 14, 2018. Please check the link below for the important dates.
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/important-dates/">Important Dates</a>
             </article>
