@@ -1074,17 +1074,18 @@ iframe {
 
 /* Hide Patron on pages */
 
-.is-not-home + footer #patron, .is-not-home + footer #keynote-speakers {
+.is-not-home + footer > *:not(#credits) {
     display: none !important;
 }
 
-#patron a:link {
+#patron a:link, .speakers a:link {
     text-decoration: none;
     color: #093990;
     outline: 0;
+    display: block;
 }
 
-#patron:hover {
+#patron a:hover, .speakers a:hover {
     text-decoration: none;
-    background-color: #f4f4f4;
+    /*background-color: #f4f4f4;*/
 }

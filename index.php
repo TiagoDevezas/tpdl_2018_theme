@@ -25,7 +25,7 @@ get_header(); ?>
           <p class="f2-l f3-m f6 ml2 mr2 tr white fw2 lh-solid mb0">
             Porto <br>
             Portugal <br>
-            Sep. 10-14 2018
+            Sep. 10-13 2018
           </p>
           <p class="f2-l f3-m f6 fw8 white ml1 lh-solid mb0">
             22<sup>nd</sup> International Conference <br>
@@ -50,7 +50,7 @@ get_header(); ?>
                 <hr class="mw3 bb bw1 b--black-10">
               </div>
               <p class="lh-copy measure center f6 black-70">
-                The TPDL 2018 Conference will take place from Monday, September 10 through Friday, September 14, 2018. Please check the link below for the important dates.
+                The TPDL 2018 Conference will take place from Monday, September 10 through Thurday, September 13, 2018. Please check the link below for the important dates.
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/important-dates/">Important Dates</a>
             </article>
@@ -65,7 +65,7 @@ get_header(); ?>
               <p class="lh-copy measure center f6 black-70">
                 Interested in participating in the TPDL 2018 Conference? Please check the links below for registration and submission details.
               </p>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green fw5" href="https://easychair.org/cfp/TPDL2018">Call for Contributions</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green fw5" href="http://www.tpdl.eu/tpdl2018/call-for-contributions/">Call for Contributions</a>
               <!-- <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Registration</a> -->
             </article>
           </div>
@@ -102,17 +102,6 @@ get_header(); ?>
         </div>
 
       </div>
-
-
-<!--       <div class="cover-image relative">
-        <div class="cover-text absolute top-1 right-1 top-2-ns right-2-ns">
-          <p class="bg-white tdpl-blue f-subheadline-l f2-m f4 measure tc ph2 mb0 lh-cover pt1 fw3">Digital Libraries for</p>
-          <p class="bg-white tdpl-blue f-subheadline-l f2-m f4 measure tc ph2 ma0 mt3-l mt1 lh-cover pt1 fw3">Open Knowledge</p>
-        </div>
-        <div class="photo-credit absolute bottom-0 right-0">
-          <p class="bg-black white tc ph2 ma0 mb2 fw4 f6 lh-copy"><a href="https://www.flickr.com/photos/_ruben/2316594722/in/photolist-4wH9Uj-7m4Q6e-7VNDtb-8SQ54p-dBqug-dBqLj-dEBmY-fsw59-dBqNc-dEBiM-dBqQD-dBqAd-dBqVB-dEBgS-dBqK5-ovJac-dEBiB-dEBi5-dEBky-dBqJL-dEBkC-dEBkL-dLA4y-dBqRP-ovHQ1-dBqza-dBqP9-dEBmE-dEBhk-8Qh3k1-dBqF7-fsw9X-ovHLD-dBqC7-ovJ9V-dBqTo-dLAdc-dEBis-ovHHJ-NQunt-dEBhe-dBqDP-dLA3H-dBqJ1-ovHWB-dEBjA-dLAbm-ovHSa-dEBkX-dBqVJ" class="link underline-hover white hover-white">Photo</a> by ruben_farao/<a href="https://creativecommons.org/licenses/by-sa/2.0/" class="link underline-hover white hover-white">CC BY-SA 2.0</a></p>
-        </div>
-      </div> -->
 
     </main><!-- #main -->
   </div><!-- #primary -->

@@ -22,8 +22,8 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'montserrat h-100 bg-near-white' ); ?>>
-<div id="page" class="site relative">
+<body <?php body_class( 'montserrat h-100' ); ?>>
+<div id="page" class="site relative flex flex-column h-100">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tpdl2018' ); ?></a>
 
 	<div class="parallax cover w-100 h-100 bg-top absolute bottom-0 left-0"></div>
@@ -91,12 +91,12 @@
 	<?php 
 		if ( is_front_page() && is_home() ) : ?>
 
-		<div id="content" class="site-content center relative z-0 is-home">
+		<div id="content" class="site-content center relative z-0 is-home w-100">
 
 	<?php
 		else: ?>
 
-		<div id="content" class="site-content center bg-white is-not-home">
+		<div id="content" class="site-content center bg-white is-not-home w-100" style="flex:1;">
 
 	<?php 
 		endif; ?>
