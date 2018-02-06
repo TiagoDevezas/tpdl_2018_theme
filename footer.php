@@ -31,7 +31,7 @@
 					</a>
 			</div>
 
-<!-- 			<div id="keynote-speakers" class="ph3 pv1 mt3 mb3 br3 w-75-l tc flex flex-column">
+			<div id="keynote-speakers" class="ph3 pv1 mt3 mb3 br3 w-75-l tc flex flex-column">
 				<h1 class="mt0 tc mb2">Keynote Speakers</h1>
 				<hr class="w3 bb bw1 b--black-10 mb1 mt0">
 				<div class="speakers w-100 flex flex-wrap flex-auto">
@@ -85,7 +85,7 @@
 					</a>
 
 				</div>
-			</div> -->
+			</div>
 			
 
 
