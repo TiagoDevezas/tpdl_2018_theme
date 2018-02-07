@@ -31,7 +31,7 @@
 					</a>
 			</div>
 
-			<div id="keynote-speakers" class="ph3 pv1 mt3 mb3 br3 w-75-l tc flex flex-column">
+<!-- 			<div id="keynote-speakers" class="ph3 pv1 mt3 mb3 br3 w-75-l tc flex flex-column">
 				<h1 class="mt0 tc mb2">Keynote Speakers</h1>
 				<hr class="w3 bb bw1 b--black-10 mb1 mt0">
 				<div class="speakers w-100 flex flex-wrap flex-auto">
@@ -85,7 +85,7 @@
 					</a>
 
 				</div>
-			</div>
+			</div> -->
 			
 
 
@@ -103,47 +103,43 @@
 		</div><!-- .site-info -->
 
 		<div id="sponsors" class="bg-white">
-			<div class="sponsors-wrapper mw9 pt3 flex flex-wrap center justify-center">
-				<div class="w-100">				
+			<div class="sponsors-wrapper mw9 pt3 flex flex-wrap center justify-center w-100">
+				<div class="w-100 w-50-l">				
 					<h1 class="mt0 tc mb2">Sponsors</h1>
 					<hr class="mw3 bb bw1 b--white-10 mt0">
+					<div class="conference-sponsors flex flex-wrap">
+						
+						<article class="center ph2 pb3 pb4-ns w-100 w-50-m w-25-l flex items-center justify-center">
+						  	<a href="http://www.springer.com/computer/lncs" class="dim">
+						    <img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/02/lncs_logo.png" class="w4 w5-ns" title="Springer-Verlag Lecture Notes in Computer Science">
+						    </a>
+						</article>
+
+						<article class="center ph2 pb3 pb4-ns w-100 w-50-m w-25-l flex items-center justify-center">
+						    <a href="http://visitportoandnorth.travel/" class="dim">
+						    	<img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/02/porto_north_logo.jpg" class="w4 w5-ns" title="Visit Porto & the North">
+						    </a>
+						</article>
+					</div>
 				</div>
 
-				<article class="center ph2 pb3 pb4-ns w-100 w-50-m w-25-l flex items-center justify-center">
-				  <div class="">
-				  	<a href="http://www.springer.com/computer/lncs" class="dim">
-				    <img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/02/lncs_logo.png" class="w4 w5-ns" title="Springer-Verlag Lecture Notes in Computer Science">
-				    </a>
-				  </div>
-				</article>
+				<div class="w-100 w-50-l flex flex-column">				
+					<h1 class="mt0 tc mb2">Organisation</h1>
+					<hr class="mw3 bb bw1 b--white-10 mt0 w3">
+					<div class="conference-organizers flex flex-wrap" style="flex-grow: 1;">					
+						<article class="center ph2 pb3 pb4-ns w-100 w-50-m w-33-l flex items-center justify-center">
+						  	<a href="http://fe.up.pt" class="dim">
+						    <img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/02/feup_logo.png" class="w4 w5-ns" title="FEUP logo">
+						    </a>
+						</article>
 
-				<article class="center ph2 pb3 pb4-ns w-100 w-50-m w-25-l flex items-center justify-center">
-				  <div class="">
-				    <a href="http://visitportoandnorth.travel/" class="dim">
-				    	<img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/02/porto_north_logo.jpg" class="w4 w5-ns" title="Visit Porto & the North">
-				    </a>
-				  </div>
-				</article>
-
-<!-- 				<article class="center pb3 pb4-ns mb3 w-100 w-50-m w-25-l">
-				  <div class="tc">
-				    <img src="http://via.placeholder.com/135x135" class="br-100 h4 w4 dib" title="name">
-				    <h1 class="f4"></h1>
-				  </div>
-				  <p class="lh-copy measure center f6 black-70">
-				    
-				  </p>
-				</article>
-
-				<article class="center pb3 pb4-ns mb3 w-100 w-50-m w-25-l">
-				  <div class="tc">
-				    <img src="http://via.placeholder.com/135x135" class="br-100 h4 w4 dib" title="name">
-				    <h1 class="f4"></h1>
-				  </div>
-				  <p class="lh-copy measure center f6 black-70">
-				    
-				  </p>
-				</article> -->
+						<article class="center ph2 pb3 pb4-ns w-100 w-50-m w-33-l flex items-center justify-center">
+						    <a href="http://inesctec.pt" class="dim">
+						    	<img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/02/inesctec_logo.png" class="w4 w5-ns" title="INESC TEC logo">
+						    </a>
+						</article>
+					</div>
+				</div>
 
 			</div>
 		</div>
