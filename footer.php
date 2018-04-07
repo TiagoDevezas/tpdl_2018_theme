@@ -120,6 +120,14 @@
 						    	<img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/02/porto_north_logo.jpg" class="w4 w5-ns" title="Visit Porto & the North">
 						    </a>
 						</article>
+
+						<article class="center ph2 pb3 pb4-ns w-100 w-50-m w-25-l flex items-center justify-center">
+						    <a href="https://www.cni.org/" class="dim">
+						    	<img src="http://www.tpdl.eu/tpdl2018/wp-content/uploads/2018/04/cni-logo-transparent.png" class="w4 w5-ns" title="Coalition for Networked Information">
+						    </a>
+						</article>
+
+
 					</div>
 				</div>
 

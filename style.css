@@ -1026,8 +1026,12 @@ iframe {
 
 /* Cards */
 
-.info-card a:hover, .info-card a:focus, a:active {
+.info-card a:hover, .info-card a:focus, .info-card a:active {
     color: white !important;
+}
+
+.info-card a.card-link:hover {
+    color: #8390C8 !important;
 }
 
 /* Contact form */

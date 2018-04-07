@@ -42,8 +42,17 @@ get_header(); ?>
       </div>
       <div class="info bg-near-white cf pb3">
         <div class="mw9 center flex flex-wrap">
+
+<!--           <div class="w-100 pa2 info-card">
+            <article class="br3 ba b--black-10" style="background-color: #FAFBFC;">
+              <p class="tc f6 black-70 fw5 pv1 ma2">
+                The <a class="link card-link" href="http://dublincore.org/conference/2018/">Dublin Core Metadata Initiative (DCMI) 2018</a> conference will be co-located with TPDL 2018. A single registration gives you full access to the program of both conferences!
+              </p>
+            </article>
+          </div> -->
+
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
-            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10 relative">
               <div class="tc">
                 <i data-feather="calendar" class="h3 w3 dib"></i>
                 <h1 class="f4 mt0">When</h1>
@@ -53,6 +62,11 @@ get_header(); ?>
                 The TPDL 2018 Conference will take place from Monday, September 10 through Thurday, September 13, 2018. Please check the link below for the important dates.
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/important-dates/">Important Dates</a>
+              <div class="callout bottom-0 left-0 br2 br--bottom mt4">
+                <p class="lh-copy measure center f6 black-70 pv1 mb0">
+                  The <a class="link dark-blue card-link" href="http://dublincore.org/conference/2018/">Dublin Core Metadata Initiative (DCMI) 2018</a> conference will be co-located with TPDL 2018. A single registration gives you full access to the program of both conferences!
+                </p>
+                </div>
             </article>
           </div>
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
@@ -66,7 +80,7 @@ get_header(); ?>
                 Interested in participating in the TPDL 2018 Conference? Please check the links below for registration and submission details.
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green fw5" href="http://www.tpdl.eu/tpdl2018/call-for-contributions/">Call for Contributions</a>
-              <!-- <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="#0">Registration</a> -->
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/conference-at-a-glance/">Conference at a Glance</a>
             </article>
           </div>
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
