@@ -79,8 +79,9 @@ get_header(); ?>
               <p class="lh-copy measure center f6 black-70">
                 Interested in participating in the TPDL 2018 Conference? Please check the links below for registration and submission details.
               </p>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/registration/">Registration</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green fw5" href="http://www.tpdl.eu/tpdl2018/call-for-contributions/">Call for Contributions</a>
-              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" href="http://www.tpdl.eu/tpdl2018/conference-at-a-glance/">Conference at a Glance</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/conference-at-a-glance/">Conference at a Glance</a>
             </article>
           </div>
           <div class="w-100 w-50-m w-25-l pa2 flex info-card">
