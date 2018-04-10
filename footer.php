@@ -68,7 +68,7 @@
 						    <h1 class="f4">Medha Devare</h1>
 						  </div>
 						  <p class="lh-copy measure tj f6 black-70 ph4">
-						    Medha Devare is Senior Research Fellow with the International Food Policy Research Institute (IFPRI) and leads efforts to organize data across the CGIAR System’s 15 Centers through its Big Data Platform. She is a Cropping Systems Agronomist and has led Open Data and food security projects.
+						    Medha Devare is Senior Research Fellow with the International Food Policy Research Institute (IFPRI) and leads its Big Data Platform efforts to organize data across the CGIAR System’s 15 Centers. She has led CGIAR food security projects in South Asia, and its Open Access/Open Data Initiative. Medha also has expertise in data management and semantic web tools; while at Cornell University she was instrumental in the development of VIVO, a semantic web application for representing scholarship.
 						  </p>
 						</article>
 					</a>
