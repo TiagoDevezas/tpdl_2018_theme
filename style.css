@@ -510,6 +510,10 @@ a:hover, a:active {
     outline: 0;
 }
 
+.info a.w-100:visited {
+    color: white;
+}
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -1092,4 +1096,11 @@ iframe {
 #patron a:hover, .speakers a:hover {
     text-decoration: none;
     /*background-color: #f4f4f4;*/
+}
+
+/* Smaller H1 on child pages (workshops) */
+
+.page-child h1 {
+    font-size: 2rem;
+    text-align: left;
 }

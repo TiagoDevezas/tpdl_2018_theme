@@ -81,6 +81,7 @@ get_header(); ?>
               </p>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/registration/">Registration</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green fw5" href="http://www.tpdl.eu/tpdl2018/call-for-contributions/">Call for Contributions</a>
+              <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green fw5" href="http://www.tpdl.eu/tpdl2018/doctoral-consortium/">Call for Doctoral Consortium</a>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/conference-at-a-glance/">Conference at a Glance</a>
             </article>
           </div>
