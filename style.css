@@ -510,7 +510,7 @@ a:hover, a:active {
     outline: 0;
 }
 
-.info a.w-100:visited {
+.info a.w-100:visited, .active-white:visited {
     color: white;
 }
 
@@ -635,7 +635,7 @@ ul.sub-menu li {
     display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 60rem) {
     #primary-menu {
         display: flex;
         align-items: center;
@@ -1030,7 +1030,7 @@ iframe {
 
 /* Cards */
 
-.info-card a:hover, .info-card a:focus, .info-card a:active {
+.info-card a:hover, .info-card a:focus, a:active {
     color: white !important;
 }
 
@@ -1101,6 +1101,6 @@ iframe {
 /* Smaller H1 on child pages (workshops) */
 
 .page-child h1 {
-    font-size: 2rem;
-    text-align: left;
+	font-size: 2rem;
+	text-align: left;
 }
