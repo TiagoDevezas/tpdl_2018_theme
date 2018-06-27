@@ -42,8 +42,10 @@ get_header(); ?>
       </div>
       <div class="info bg-near-white cf pb3">
         <div class="mw9 center flex flex-wrap">
-          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
-            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10 relative">
+
+          
+          <div class="w-100 w-50-m w-20-l pa2 flex info-card">
+            <article class="center bg-white br3 pa3 ba b--black-10 relative">
               <div class="tc">
                 <i data-feather="calendar" class="h3 w3 dib"></i>
                 <h1 class="f4 mt0">When</h1>
@@ -62,8 +64,10 @@ get_header(); ?>
 
             </article>
           </div>
-          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
-            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+
+
+          <div class="w-100 w-50-m w-20-l pa2 flex info-card">
+            <article class="center bg-white br3 pa3 ba b--black-10">
               <div class="tc">
                 <i data-feather="help-circle" class="h3 w3 dib"></i>
                 <h1 class="f4 mt0">How</h1>
@@ -79,8 +83,10 @@ get_header(); ?>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/conference-at-a-glance/">Conference at a Glance</a>
             </article>
           </div>
-          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
-            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+
+
+          <div class="w-100 w-50-m w-20-l pa2 flex info-card">
+            <article class="center bg-white br3 pa3 ba b--black-10">
               <div class="tc">
                 <i data-feather="users" class="h3 w3 dib"></i>
                 <h1 class="f4 mt0">Who</h1>
@@ -94,8 +100,10 @@ get_header(); ?>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/contact/">Contact</a>
             </article>
           </div>
-          <div class="w-100 w-50-m w-25-l pa2 flex info-card">
-            <article class="center bg-white br3 pa3 pa4-ns ba b--black-10">
+
+
+          <div class="w-100 w-50-m w-20-l pa2 flex info-card">
+            <article class="center bg-white br3 pa3 ba b--black-10">
               <div class="tc">
                 <i data-feather="map" class="h3 w3 dib"></i>
                 <h1 class="f4 mt0">Where</h1>
@@ -109,6 +117,21 @@ get_header(); ?>
               <a class="w-100 tc f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue fw5" href="http://www.tpdl.eu/tpdl2018/about-porto/">About Porto</a>
             </article>
           </div>
+
+
+          <div class="w-100 w-50-m w-20-l pa2 flex info-card">
+            <article class="center bg-white br3 pa3 ba b--black-10">
+              <div class="tc">
+                <i data-feather="twitter" class="h3 w3 dib"></i>
+                <h1 class="f4 mt0">Twitter</h1>
+                <hr class="mw3 bb bw1 b--black-10 mb3">
+              </div>
+              <a class="twitter-timeline ph3 pv2" data-width="600" data-height="370px" data-dnt="true" data-theme="light" href="https://twitter.com/tpdl2018?ref_src=twsrc%5Etfw">Tweets by TPDL 2018</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            </article>
+          </div>
+
+
+
         </div>
 
       </div>
